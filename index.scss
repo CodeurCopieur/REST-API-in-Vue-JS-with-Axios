@@ -1,0 +1,95 @@
+$color_0: #fff;
+$color_1: #FC6D26;
+$color_2: #E24329;
+$color_3: #FCA326;
+$color_4: #48367d;
+$color_5: #241842;
+
+body {
+  font-family: 'Raleway', sans-serif;
+  padding: 0 50px 50px;
+  
+  line-height: 1.4;
+  height: auto;
+
+  a {
+    text-decoration: none;
+  }
+
+  #app {
+    text-align: center;
+    height: auto;
+    transition: all .3s ease-in-out;
+
+    h1 {
+      font-size: 2.5em;
+      margin: 32px 0;
+      font-weight: bold;
+      color: $color_4;
+    }
+
+    .getBtn {
+      color: $color_0;
+      background-color: $color_5;
+      margin-bottom: 64px;
+      padding: 8px 25px;
+      border: 0;
+      border-radius: 2px;
+      font-weight: 300;
+      font-size: 1em;
+      outline: 0;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, .25);
+      transition: all .3s ease-in-out;
+
+      &:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+        box-shadow: 0 14px 28px rgba(0, 0, 0, .5);
+      }
+    }
+
+    .blogPost {
+
+      background: linear-gradient(45deg,$color_1,$color_3) 50% no-repeat;
+      max-width: 70%;
+      margin: 0 auto;
+      border-radius: 4px;
+      text-align: left;
+      color: $color_0;
+      padding: 16px;
+      margin-bottom: 16px;
+      //box-shadow: 0 10px 20px rgba(0, 0, 0, .19);
+      transition: all .3s ease-in-out;
+
+      &:hover {
+        cursor: pointer;
+        box-shadow: 0 14px 28px rgba(0, 0, 0, .25);
+        transform: scale(1.1);
+      }
+
+      .blogTitle {
+        margin-bottom: 8px;
+        font-weight: bold;
+      }
+
+      .blogBody  {
+
+      }
+    }
+
+    @media screen and (max-width: 768px){
+      .blogPost {
+        .blogTitle {
+          font-size: .75em;
+        }
+        .blogBody {
+          font-size: .55em;
+        }
+      }
+    }
+  }
+}
+
+html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{-webkit-box-sizing:content-box;box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{-webkit-box-sizing:border-box;box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{-webkit-box-sizing:border-box;box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}template{display:none}[hidden]{display:none}
+
+html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:400}ul{list-style:none}button,input,select,textarea{margin:0}html{-webkit-box-sizing:border-box;box-sizing:border-box}*,*::before,*::after{-webkit-box-sizing:inherit;box-sizing:inherit}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}td:not([align]),th:not([align]){text-align:left}

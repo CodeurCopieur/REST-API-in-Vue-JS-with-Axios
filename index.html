@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!--CSS-->
+    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&amp;amp;display=swap"/>
+    <title>REST API in Vue JS with Axios</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>Blog posts</h1>
+      <button class="getBtn" @click="updated">Mettre à jour</button>
+      <div class="blogPost" v-for="post in posts">
+        <h3 class="blogTitle">{{ post.title | capitalize }}</h3>
+        <p class="blogBody">{{ post.body }}</p>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
